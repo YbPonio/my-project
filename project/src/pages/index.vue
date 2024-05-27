@@ -1,7 +1,9 @@
 <!-- eslint-disable vue/multi-word-component-names -->
 
 <template>
-  <HelloWorld />
+  <AppFooter />
 </template>
 
-<script setup></script>
+<script setup>
+import AppFooter from "@/components/AppFooter.vue";
+</script>
